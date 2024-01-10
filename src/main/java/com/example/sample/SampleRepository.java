@@ -1,0 +1,8 @@
+package com.example.sample;
+
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+@Repository
+public interface SampleRepository extends CrudRepository<Employee ,Integer>{
+
+}
